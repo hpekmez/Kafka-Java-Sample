@@ -1,0 +1,13 @@
+
+--kafka ve zookeperı ayaga kaldırmak icin, docker-compose.yaml i calistirmalisin.
+Bulundugu dizine git ve asagidaki komutu calistir
+
+docker-compose up -d
+
+
+--Java Uygulamalarını ayaga kaldir
+
+--Postmani ac ve POST istegi yolla
+http://localhost:8080/publish?message=helloWorld
+
+--ciktilari gozlemle
